@@ -40,7 +40,7 @@ class Player {
         this.alerted = false;
         this.isJumping = false;
         this.timePassed = false;
-        this.mirror = false;
+        this.inverted = false;
     }
 
     draw(ctx) {
